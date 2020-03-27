@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|PT+Sans+Narrow|Roboto+Condensed|Roboto|Shadows+Into+Light|Spartan&display=swap');
+
+html {
+    font-size: 32px;
+    background:url('images/megumi to tsugumi.png') no-repeat top;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 960px;
+   /*height: 2000px;*/
+    margin: auto;
+    margin-top: 0px;
+   /* border: black dashed; */
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: dotted rgb(47, 47, 194);
+    }
+    
+    
+    header #logo {
+    width: 480px;
+    height: 120px;
+}
+
+header #combo_img {
+    display: flex;
+    align-items: center;
+}
+
+header #combo_img img {
+    margin: 0px 10px 0px 20px;
+    
+}
+
+header #combo_img h1 {
+    font-size: 1rem;
+    font-family: 'Bebas Neue';
+}
+
+
+p {
+    margin: 0px 0px 0px 20px;
+    font-size: .5rem;
+    font-family: 'Shadows Into Light';
+}
+
+header #menu {
+     height: 120px;
+     width: 480px;
+    }
+
+header h1 {
+    color:rgb(91, 104, 148)
+}
+
+nav {
+    margin: 0px;
+    height: 120px;
+}
+nav ul {
+    margin: 0px 0px 10px 0px;
+    height: 110px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+nav li {
+    margin-right: 15px;
+    font-family: 'PT Sans Narrow';
+    font-size: .6rem;
+}
+
+nav a {
+    color: #3f2c7e;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e69698f6;
+    border-bottom: 3px solid #ec9fa1;
+}
+
+#banner {
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background: url('images/banner.png') no-repeat;
+    box-shadow: 0px 4px 4px #52348a;
+    position: relative;
+}
+#container {
+    height: 50px;
+    width: 960px;
+    background-color: rgba(217, 190, 253, 0.8);
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px 0px 5px 5px;
+    position: absolute; 
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+#container p {
+    color: #64258d;
+    font-family: 'Roboto condensed';
+}
+
+.button {
+    width: 115px;
+    height: 25px;
+    margin-right: 20px;
+    border: 1px solid #a76366;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #fdd5d6e7;
+    color: #64258d;
+    font-size: .5rem;
+    font-family: 'Roboto condensed';
+    text-align: center;
+    padding-top: 3px;
+    font-weight: 300;
+    transition: all 0.2s;
+}
+
+a.button:hover {
+    background-color: rgb(219, 87, 87);
+}
+
+a.button img {
+    margin-left: 3px;
+}
+
+#thumbnails {
+    height: 315px;
+    padding: 0 px;
+    margin: 0 px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.thumb {
+    width: 220px;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border : dotted rgb(184, 54, 173) 2px;
+    background: url('images/kJ0zdf.png') no-repeat;
+    background-position: 10px 15px;
+    position: relative;
+}
+.thumb {
+    background-color: rgb(238, 201, 238);
+}
+
+.thumb1 {
+    width: 220px;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border : dotted rgb(184, 54, 173) 2px;
+    background: url('images/sekai.png') no-repeat;
+    background-position: 10px 15px;
+    position: relative;
+}
+.thumb1 {
+    background-color: rgb(238, 201, 238);
+}
+
+
+.thumb2 {
+    width: 220px;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border : dotted rgb(184, 54, 173) 2px;
+    background: url('images/unnamedi.png') no-repeat;
+    background-position: 10px 15px;
+    position: relative;
+}
+.thumb2 {
+    background-color: rgb(238, 201, 238);
+}
+
+.thumb3 {
+    width: 220px;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border : dotted rgb(184, 54, 173) 2px;
+    background: url('images/sasu.png') no-repeat;
+    background-position: 10px 15px;
+    position: relative;
+}
+.thumb3 {
+    background-color: rgb(238, 201, 238);
+}
+.thumb4 {
+    width: 220px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    border : dotted rgb(184, 54, 173) 2px;
+    background: url('images/history.png') no-repeat;
+    background-position: 10px 15px;
+    position: relative;
+       
+}
+.thumb4 {
+    background-color: rgb(238, 201, 238);
+}
+.thumb5 {
+    width: 220px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    border : dotted rgb(184, 54, 173) 2px;
+    background: url('images/mo.png') no-repeat;
+    background-position: 10px 15px;
+    position: relative;
+       
+}
+.thumb5 {
+    background-color: rgb(238, 201, 238);
+}
+
+.thumb6 {
+    width: 220px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    border : dotted rgb(184, 54, 173) 2px;
+    background: url('images/ingeniero.png') no-repeat;
+    background-position: 10px 15px;
+    position: relative;
+       
+}
+.thumb6 {
+    background-color: rgb(238, 201, 238);
+}
+.thumb7 {
+    width: 220px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    border : dotted rgb(184, 54, 173) 2px;
+    background: url('images/ee09.png') no-repeat;
+    background-position: 10px 15px;
+    position: relative;
+       
+}
+.thumb7 {
+    background-color: rgb(238, 201, 238);
+}
+.thumb p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Roboto condensed';
+    font-size: .4rem;
+    text-align: justify;
+    line-height: 2;
+}
+.thumb1 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Roboto condensed';
+    font-size: .4rem;
+    text-align: justify;
+    line-height: 2;
+}
+.thumb2 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Roboto condensed';
+    font-size: .4rem;
+    text-align: justify;
+    line-height: 2;
+}
+.thumb3 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Roboto condensed';
+    font-size: .4rem;
+    text-align: justify;
+    line-height: 2;
+}
+
+.thumb4 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Roboto condensed';
+    font-size: .4rem;
+    text-align: justify;
+    line-height: 2;
+}
+.thumb5 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Roboto condensed';
+    font-size: .4rem;
+    text-align: justify;
+    line-height: 2;
+}
+.thumb6 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Roboto condensed';
+    font-size: .4rem;
+    text-align: justify;
+    line-height: 2;
+}
+.thumb7 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Roboto condensed';
+    font-size: .4rem;
+    text-align: justify;
+    line-height: 2;
+    
+}
+
+#linea {
+    margin-top:10px 0px 30px 0px;
+    width: 960px;
+    height: 50px;
+    border-radius: 5px;
+    margin:10px 0px 30px 0px;
+}
+#linea2 {
+    margin-top:10px 0px 30px 0px;
+    width: 960px;
+    height: 50px;
+    border-radius: 5px;
+    margin:10px 0px 30px 0px;
+}
+
+
+
+footer {
+    margin: 460px 0px 30px 0px;
+    width: 960px;
+    height: 200px;
+    background-color: #b9c4df;
+    position: relative;
+    }
+    #contacto {
+        width: 480px;
+        height: 200px;
+    }
+    
+    #contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    footer #contacto div {
+        margin-left: 20px;
+        display: flex;
+        color: #552a6d;
+        font-weight: 300;
+        align-items: center;
+    }
+    
+    #acerca {
+        width: 30%;
+        height: 200px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer #acerca h3 {
+        margin: 0px 0px 10px 0px;
+        font-size: .7rem;
+        color: #355169;
+    }
+    
+    footer #acerca p {
+        margin: 0;
+        color: #304c64;
+    }
+    
+    .redes {
+        margin: 10px 0px 0px 0px;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .redes img {
+        margin-left: 10px;
+    }
+
+    
+    
+        
